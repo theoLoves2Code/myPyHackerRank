@@ -18,6 +18,8 @@ if n % 2 != 1 and 6<=n<=20 :
 
 
 
+
+
 # this third challenge is called Arithmetic Operators
 # takes 2 input from python as an integers called a&b
     #if __name__ == '__main__':
@@ -25,7 +27,18 @@ if n % 2 != 1 and 6<=n<=20 :
     #    b = int(input())
 a = 3
 b = 5
-print('challenge 3 :')    
-print(a+b)
-print(a-b)
-print(a*b)
+print(f'challenge 3 : {a+b, a-b, a*b}')
+
+
+
+
+
+# this fourth challenge is called division 
+# takes 2 input from python as an integers called a&b, prints out dision integer and float
+    #if __name__ == '__main__':
+    #a = int(input())
+    #b = int(input())
+a = 33
+b = 5
+print(f'challenge 4 : division integer : {int(a/b)}') 
+print(f'challenge 4 : division float : {a/b}') 
