@@ -42,3 +42,16 @@ a = 33
 b = 5
 print(f'challenge 4 : division integer : {int(a/b)}') 
 print(f'challenge 4 : division float : {a/b}') 
+
+
+
+
+
+# this fifth challenge is called loop
+# takes an input from python as an integers called n, prints out the squares of numbrts 1-n
+    #if __name__ == '__main__':
+    #n = int(input())
+x = 0 
+while x < n :
+    print(x*x)
+    x += 1
