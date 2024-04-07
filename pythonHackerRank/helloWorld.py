@@ -51,7 +51,47 @@ print(f'challenge 4 : division float : {a/b}')
 # takes an input from python as an integers called n, prints out the squares of numbrts 1-n
     #if __name__ == '__main__':
     #n = int(input())
+n = 2
 x = 0 
 while x < n :
-    print(x*x)
+    print(f'challenge 5 : {x*x}')
     x += 1
+
+
+
+
+# this sixth challenge is called Write a function
+# runs a function to determine if the year in question is a leap year
+# year = int(input())
+year = 1994
+
+def is_leap(year):
+    leap = False
+    
+    # Write your logic here
+    if year % 4 == 0 :
+        leap = True
+    if year % 100 == 0:
+        leap = False
+    if year % 400 == 0:
+        leap = True
+    
+    print(f'challenge 6 : {leap}')
+    return leap
+    
+is_leap(year)
+
+
+
+
+# this seventh challenge is called print function
+# takes an integer n and prints out the values of 1-n without spacing 
+# if __name__ == '__main__':
+#    n = int(input())
+n = 4    
+myTuple = []
+for x in range(n): myTuple.append(x+1)
+art = "".join(str(myTuple).split(','))
+cod = "".join(art.split(" "))
+color = cod[1:-1]
+print(f'challenge 7 : {color}')
